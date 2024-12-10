@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/icon.png" >
+  <title>Eu & Ela</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <div class="buttons-ferramentas">
+    <button type="button" class="button-calculadora">Calculadora</button>
+    <button type="button" class="button-relogio">Horário</button>
+    <button type="button" class="button-previsao">Previsão do Tempo</button>
+  </div>
+
+  <div class="ferramentas">
+    <div class="calculator">
+      <div class="result">0</div>
+      <div class="buttons">
+        <button class="bg-gray">C</button>
+        <button class="bg-gray">±</button>
+        <button class="bg-gray">%</button>
+        <button class="bg-orange">÷</button>
+        <button class="bg-light-gray">7</button>
+        <button class="bg-light-gray">8</button>
+        <button class="bg-light-gray">9</button>
+        <button class="bg-orange">×</button>
+        <button class="bg-light-gray">4</button>
+        <button class="bg-light-gray">5</button>
+        <button class="bg-light-gray">6</button>
+        <button class="bg-orange">-</button>
+        <button class="bg-light-gray">1</button>
+        <button class="bg-light-gray">2</button>
+        <button class="bg-light-gray">3</button>
+        <button class="bg-orange">+</button>
+        <button class="bg-light-gray button-zero">0</button>
+        <button class="bg-light-gray">,</button>
+        <button class="bg-orange">=</button>
+      </div>
+    </div>
+    <div class="relogio">
+      <div class="riscos">
+          <div class="risco" style="transform: rotate(0deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(30deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(60deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(90deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(120deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(150deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(180deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(210deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(240deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(270deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(300deg)"><div class="ponto"></div></div>
+          <div class="risco" style="transform: rotate(330deg)"><div class="ponto"></div></div>
+      </div>
+      <div class="ponteiros">
+          <div class="p p_s"></div>
+          <div class="p p_m"></div>
+          <div class="p p_h"></div>
+          <div class="encaixe"></div>
+      </div>
+      <div class="digital">--:--:--</div>
+    </div>
+    
+    <div class="previsao-container">
+      <div class="previsao-titulo">--</div>
+      <div class="info">
+          <div class="temp">
+              <div class="tempTitulo">Temperatura</div>
+              <div class="tempInfo">-- <sup>ºC</sup></div>
+              <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+          </div>
+          <div class="vento">
+              <div class="ventoTitulo">Vento</div>
+              <div class="ventoInfo">-- <span>km/h</span></div>
+              <div class="ventoArea">
+                  <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div>
+    <span class="hora"></span>:<span class="minuto"></span>
+  </div> -->
+
+  <div class="slide-wrapper">
+    <ul class="slide">
+      <li><img src="img/img01.png" alt=""></li>
+      <li><img src="img/img02.png" alt=""></li>
+      <li><img src="img/img03.png" alt=""></li>
+      <li><img src="img/img04.png" alt=""></li>
+      <li><img src="img/img05.png" alt=""></li>
+      <li><img src="img/img06.png" alt=""></li>
+      <li><img src="img/img07.png" alt=""></li>
+    </ul>
+  </div>
+
+  <div class="arrow-nav">
+    <button class="prev"></button>
+    <button class="next"></button>
+  </div>
+
+  <h1>Rafael e Renata</h1>
+  <p class="historia">Oi, meu amor! Gostaria, primeiramente, de te dizer que tu é a mulher da minha vida. Independente de lugar, estado, país, universo, a única coisa que eu tenho certeza é que eu quero estar pra sempre contigo. Não consigo me imaginar sem te ter junto comigo. Você faz tudo ficar mais bonito e mais leve. Obrigado por tudo. Te amo muito!</p>
+
+  <h2>Juntos há</h2>
+  <div class="container-data">
+    <div class="item-data">
+      <p class="anos"></p>
+      <p>anos</p>
+    </div>
+    <div class="item-data">
+      <p class="meses"></p>
+      <p>meses</p>
+    </div>
+    <div class="item-data">
+      <p class="dias"></p>
+      <p>dias</p>
+    </div>
+    <div class="item-data">
+      <p class="horas"></p>
+      <p>horas</p>
+    </div>
+    <div class="item-data">
+      <p class="minutos"></p>
+      <p>minutos</p>
+    </div>
+    <div class="item-data">
+      <p class="segundos"></p>
+      <p>segundos</p>
+    </div>
+  </div>
+
+  <div class="play">
+    <img class="volume-down" src="img/menos01.png"></img>
+    <img class="imgAudio" src="img/play.png"></img>
+    <img class="volume-up" src="img/mais01.png"></img>
+  </div>
+
+  <audio src="music.mp3"></audio>
+  
+  <script type="module" src="js/script.js"></script>
+</body>
+</html>
