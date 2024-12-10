@@ -183,6 +183,7 @@ p {
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  color: rgba(0, 0, 0, 0.845);
   font-variation-settings:
     "MORF" 0;
 }
