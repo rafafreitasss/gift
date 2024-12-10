@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'love';
-  src: url('/love.ttf') format('truetype');
+  src: url('/love.ttf');
 }
 
 body {
@@ -86,7 +86,7 @@ h1 {
   display: block;
   width: 16px;
   height: 16px;
-  background: pink;
+  background: #ffc0cb;
   border-radius: 50%;
   overflow: hidden;
   /* para os números sumirem */
