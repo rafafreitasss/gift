@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -177,7 +179,12 @@ p {
 
 .anos, .meses, .dias, .horas, .minutos, .segundos {
   font-size: 1.5rem;
-  font-family: 'love';
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
 }
 
 .previsao-container {
@@ -472,11 +479,11 @@ p {
     gap: 50px;
   }
   .historia {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
   }
   p {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
   }
 }
