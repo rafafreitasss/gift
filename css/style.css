@@ -471,4 +471,12 @@ p {
     flex-direction: column;
     gap: 50px;
   }
+  .historia {
+    font-size: 1.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
 }
